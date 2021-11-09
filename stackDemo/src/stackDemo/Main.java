@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-ProductManager manager=new ProductManager(new Stack(30));
+ProductManager manager=new ProductManager(new Stack(8));
 manager.add(new Product(1,"Elma"));
 manager.add(new Product(2,"Armut"));
 manager.add(new Product(3,"Kiraz"));
