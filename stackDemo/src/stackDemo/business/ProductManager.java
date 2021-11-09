@@ -16,5 +16,6 @@ public void add(Product product) {
 }
 public void pop() {
 	this.stack.pop();
+	this.stack.pop();
 }
 }
