@@ -12,9 +12,10 @@ ProductManager manager=new ProductManager(new Stack(30));
 manager.add(new Product(1,"Elma"));
 manager.add(new Product(2,"Armut"));
 manager.add(new Product(3,"Kiraz"));
-manager.add(new Product(4,"Üzüm"));
+manager.add(new Product(4,"ÃœzÃ¼m"));
+System.out.println("-----------------------");
 manager.pop();
-manager.pop();
+
 
 
 
